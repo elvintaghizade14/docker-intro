@@ -8,7 +8,7 @@ docker exec -it sqlserver2019 bash
 cat /etc/os-release
 
 # Log into SQL Server using SQLCMD command line tool
-/opt/mssql-tools/bin/sqlcmd -U sa -P Adam123456
+/opt/mssql-tools/bin/sqlcmd -U sa -P Elvin123456
 
 # View version information
 SELECT @@Version;
@@ -56,4 +56,3 @@ CREATE DATABASE mytestdb;
 
 # Exit out of the docker container
 exit
-

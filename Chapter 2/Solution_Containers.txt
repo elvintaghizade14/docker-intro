@@ -15,11 +15,3 @@ docker start MySecondSQLServer
 
 # remove a container
 docker rm MySecondSQLServer
-
-
-
-
-
-
-
-

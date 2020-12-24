@@ -4,10 +4,10 @@
 https://hub.docker.com/_/microsoft-mssql-server
 
 Windows PC:
-docker run --name sqlserver2019 -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Adam123456" -p 1401:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+docker run --name sqlserver2019 -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Elvin123456" -p 1401:1433 -d mcr.microsoft.com/mssql/server:2019-latest
 
 MacOS & Linux:
-docker run --name sqlserver2019 -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Adam123456' -p 1401:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+docker run --name sqlserver2019 -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Elvin123456' -p 1401:1433 -d mcr.microsoft.com/mssql/server:2019-latest
 
 
 
@@ -17,7 +17,7 @@ docker run --name sqlserver2019 -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Adam123456' -
 
 https://hub.docker.com/_/postgres/
 
-docker run --name postgresql -p 5401:5432 -e POSTGRES_PASSWORD=Adam123456 -d postgres:latest
+docker run --name postgresql -p 5401:5432 -e POSTGRES_PASSWORD=Elvin123456 -d postgres:latest
 
 
 
